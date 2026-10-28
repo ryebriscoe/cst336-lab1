@@ -53,6 +53,10 @@ footer img {
   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
+#home-main section {
+  padding-top: 2rem;
+}
+
 #about-main {
   display: block;
   margin: 0 auto;
