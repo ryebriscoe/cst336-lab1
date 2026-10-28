@@ -1,0 +1,101 @@
+header, nav, main, footer {
+  text-align: center;
+}
+
+
+body {
+  background-color: #000000;
+  color: #FFFFFF; /* Set text color to white for contrast */
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;  /* Set line height for better readability */
+}
+
+
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #00FF00;
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #174a73;
+  font-size: 2rem;
+  border-bottom: 2px solid rgb(6, 136, 24);
+}
+
+nav a.current {
+  color: #FFFFFF;
+  background-color: #174a73;
+  font-weight: bold;
+  border-bottom: 2px solid #00FF00;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #B8C7D9;
+}
+
+footer img {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+#home-main {
+  display: flex; /* Place the photo and welcome section side by side */
+  justify-content: center; /* Center the items horizontally */
+  gap: 2rem;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+#about-main {
+  display: block;
+  margin: 0 auto;
+}
+
+#table-header {
+  background-color: #173f73; /* Dark blue background for header */
+  color: #FFFFFF; /* White text for header */
+}
+
+.table-row {
+  background-color: #f2f2f2; /* Light gray background for rows */
+  color: #222222; /* Dark text for readability */
+}
+
+table{
+  border-collapse: collapse; /* Collapse borders into a single border */
+  margin: 2rem auto; /* Center the table and add space above and below it */
+  width: min(90%, 32rem);
+}
+
+th, td {
+  border: 1px solid #dbe4f0; /* Add a border to the table, header cells, and data cells */
+  padding: 0.5rem; /* Add padding to cells for better readability */
+  text-align: left; /* Align text to the left */
+}
+
+.interest {
+  text-align: center;
+  list-style-type: none;
+}
+
+#about-main ul {
+  padding: 0;
+}
+
+iframe {
+  display: block;
+  width: min(100%, 40rem);
+  min-height: 40rem;
+  margin: 0 auto;
+  border: 1px solid #dbe4f0;
+}
+
+
+
