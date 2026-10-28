@@ -49,12 +49,9 @@ footer img {
 #home-main {
   display: flex; /* Place the photo and welcome section side by side */
   justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the writing vertically beside the photo */
   gap: 2rem;
   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-}
-
-#home-main section {
-  padding-top: 2rem;
 }
 
 #about-main {
